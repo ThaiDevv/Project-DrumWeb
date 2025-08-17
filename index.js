@@ -31,4 +31,6 @@ function playMusic(drumType){
       console.log("Không có âm thanh cho:", drumType);
     }
     new Audio(sound).play();
+    return
+    
 }
